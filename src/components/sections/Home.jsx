@@ -13,9 +13,10 @@ export const Home = () => {
           </h1>
 
           <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I’m a frontend developer who loves crafting clean, scalable web
-            applications. My goal is to build solutions that offer both
-            exceptional performance and a delightful user experience.
+            I’m a MERN stack developer passionate about crafting clean, scalable,
+            and user-focused web applications. I aim to build solutions that deliver
+            high performance and an exceptional user experience, combining modern technologies
+            like MongoDB, Express.js, React.js, and Node.js
           </p>
           <div className="flex justify-center space-x-4">
             <a

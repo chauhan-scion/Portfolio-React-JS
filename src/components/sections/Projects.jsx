@@ -14,13 +14,22 @@ export const Projects = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2"> Cloud Platform</h3>
+              <h3 className="text-xl font-bold mb-2">
+                {" "}
+                CrowFunding Web Application
+              </h3>
               <p className="text-gray-400 mb-4">
                 Scalable cloud infrastructure management with real-time
                 monitoring and automated scaling.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+                {[
+                  "React",
+                  "Node.js",
+                  "Javascript",
+                  "Solidity",
+                  "Tailwind CSS",
+                ].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -49,13 +58,13 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">AI Analytics Dashboard</h3>
+              <h3 className="text-xl font-bold mb-2">Password Generator</h3>
               <p className="text-gray-400 mb-4">
                 ML-powered data visualization platform with predictive analytics
                 and interactive reports.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Python", "TensorFlow", "D3.js", "Flask"].map((tech, key) => (
+                {["Javascript", "Tailwind CSS", "HTML"].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -88,10 +97,11 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">E-Commerce Web App</h3>
+              <h3 className="text-xl font-bold mb-2">Disney Clone</h3>
               <p className="text-gray-400 mb-4">
-                Full-stack e-commerce with modern UI, secure payment
-                integration, and customizable product inventory.
+                Developed a Disney+ clone frontend using React.js, JavaScript,
+                Tailwind CSS, and TMDB API, featuring dynamic movie listings,
+                responsive design, and a modern UI.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Next.js", "TypeScript", "Stripe", "PostgreSQL"].map(
@@ -129,10 +139,11 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Real-Time Chat App</h3>
+              <h3 className="text-xl font-bold mb-2">PortFolio</h3>
               <p className="text-gray-400 mb-4">
-                Scalable chat platform supporting real-time messaging, presence,
-                and group chat features.
+                Developed a personal portfolio website using React.js,
+                JavaScript, and Tailwind CSS with a modern, responsive UI to
+                showcase projects and skills.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Socket.IO", "Express", "React", "Redis"].map((tech, key) => (
